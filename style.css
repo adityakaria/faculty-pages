@@ -1,0 +1,418 @@
+/*------------------------------------*\
+            Top-bar
+\*------------------------------------*/
+#top-bar {
+    /* Rectangle */
+
+    position: relative;
+    /* left: 0%;
+    right: 5.88%;
+    top: 0%;
+    bottom: 0%; */
+
+    /* Standard Grey */
+    background: #828282;
+}
+/*------------------------------------*\
+            nav-bar
+\*------------------------------------*/
+#nav-bar {
+/* Header Bar */
+
+    position: relative;
+    /* left: 0%;
+    right: 6.07%;
+    top: 0%;
+    bottom: 0%; */
+
+    background: #FFFFFF;
+}
+/*------------------------------------*\
+            head-space
+\*------------------------------------*/
+
+#head-space {
+    position: relative;
+    /* ntn */
+}
+/* LOGO SPACE START */
+#head-space .logo-space {
+    position: relative;
+    background-size: cover;
+    height: 200px;
+    /* left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 35.71%; */
+
+    /* Dark Green */
+    background: #0F3D3D;
+}
+#head-space .logo-space img {
+    margin: 20px;
+    float: right;
+    max-width: 200px;
+}
+
+/* PROFILE IMAGE */
+#head-space .profile-img {
+    position: relative;
+    left: 40px;
+    top: -60%;
+    margin-bottom: -30.5%;
+    z-index: 99;
+}
+
+#head-space .profile-img img {
+    width: 30%;
+    height: 30%;
+    max-width: 30%;
+    max-height: 30%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 20px solid #046E6C;
+}
+
+/* NAME SPACE START */
+#head-space .name-space {
+    position: relative;
+    /* text-align: right; */
+    height: 45px;
+    /* left: 0%; */
+    /* right: 0%; */
+    /* top: 46.43%;*/
+    /* bottom: 35.71%; */
+
+    /* Teal */
+    background: #046E6C;
+}
+
+/* YOUR NAME HERE */
+#head-space .name-space h2 {
+
+    /* font-weight: 200; */
+    /* color: white; */
+    text-align: right;
+    margin-right: 30%;
+
+    position: relative;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    /* font-size: 48px; */
+    /* line-height: 58px; */
+    /* text-align: center; */
+
+    color: #FFFFFF;
+}
+/*------------------------------------*\
+            Details section
+\*------------------------------------*/
+
+/* CONTACT */
+#details .contact {
+    padding-top: 170px !important;
+    padding: 20px;
+    position: relative;
+    background-size: cover;
+    background: #828282;
+    height: 500px;
+}
+
+.subsection-title h3 {
+    /* OFFICE | PERSONAL | RESUME */
+
+    position: relative;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    /* font-size: 36px; */
+    /* line-height: 43px; */
+
+    color: #FFFFFF;
+}
+
+#details .contact .contact-items {
+    position: relative;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+#details .contact .contact-items ul {
+    list-style: none;
+    padding-left: 0;
+}​
+
+#details .contact .contact-items .desc {
+    color: white;
+}
+
+#details .contact .contact-items i {
+    margin: 3px;
+}
+
+
+/* DESCRIPTION */
+#details .description {
+
+}
+/*------------------------------------*\
+            section
+\*------------------------------------*/
+
+/*------------------------------------*\
+            section
+\*------------------------------------*/
+
+/*------------------------------------*\
+            section profile card
+\*------------------------------------*/
+
+.card {
+    padding-top: 20px;
+    margin: 10px 0 20px 0;
+    background-color: rgba(214, 224, 226, 0.2);
+    border-top-width: 0;
+    border-bottom-width: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card .card-heading {
+    padding: 0 20px;
+    margin: 0;
+}
+
+.card .card-heading.simple {
+    font-size: 20px;
+    font-weight: 300;
+    color: #777;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.card .card-heading.image img {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    margin-right: 15px;
+    vertical-align: top;
+    border: 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.card .card-heading.image .card-heading-header {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card .card-heading.image .card-heading-header h3 {
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+}
+
+.card .card-heading.image .card-heading-header span {
+    font-size: 12px;
+    color: #999999;
+}
+
+.card .card-body {
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.card .card-media {
+    padding: 0 20px;
+    margin: 0 -14px;
+}
+
+.card .card-media img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card .card-actions {
+    min-height: 30px;
+    padding: 0 20px 20px 20px;
+    margin: 20px 0 0 0;
+}
+
+.card .card-comments {
+    padding: 20px;
+    margin: 0;
+    background-color: #f8f8f8;
+}
+
+.card .card-comments .comments-collapse-toggle {
+    padding: 0;
+    margin: 0 20px 12px 20px;
+}
+
+.card .card-comments .comments-collapse-toggle a,
+.card .card-comments .comments-collapse-toggle span {
+    padding-right: 5px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #999;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card-comments .media-heading {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.card.people {
+    position: relative;
+    display: inline-block;
+    width: 170px;
+    height: 300px;
+    padding-top: 0;
+    margin-left: 20px;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.card.people:first-child {
+    margin-left: 0;
+}
+
+.card.people .card-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 170px;
+    height: 150px;
+    background-color: #ffffff;
+}
+
+.card.people .card-top.green {
+    background-color: #53a93f;
+}
+
+.card.people .card-top.blue {
+    background-color: #427fed;
+}
+
+.card.people .card-info {
+    position: absolute;
+    top: 150px;
+    display: inline-block;
+    width: 100%;
+    height: 101px;
+    overflow: hidden;
+    background: #ffffff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card.people .card-info .title {
+    display: block;
+    margin: 8px 14px 0 14px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #404040;
+}
+
+.card.people .card-info .desc {
+    display: block;
+    margin: 8px 14px 0 14px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 16px;
+    color: #737373;
+    text-overflow: ellipsis;
+}
+
+.card.people .card-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    line-height: 29px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card.hovercard {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgba(214, 224, 226, 0.2);
+}
+
+.card.hovercard .cardheader {
+    background: url("http://lorempixel.com/850/280/nature/4/");
+    background-size: cover;
+    height: 135px;
+}
+
+.card.hovercard .avatar {
+    position: relative;
+    top: -50px;
+    margin-bottom: -50px;
+}
+
+.card.hovercard .avatar img {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgba(255,255,255,0.5);
+}
+
+.card.hovercard .info {
+    padding: 4px 8px 10px;
+}
+
+.card.hovercard .info .title {
+    margin-bottom: 4px;
+    font-size: 24px;
+    line-height: 1;
+    color: #262626;
+    vertical-align: middle;
+}
+
+.card.hovercard .info .desc {
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 20px;
+    color: #737373;
+    text-overflow: ellipsis;
+}
+
+.card.hovercard .bottom {
+    padding: 0 20px;
+    margin-bottom: 17px;
+}
+
+.btn{ border-radius: 50%; width:32px; height:32px; line-height:18px;  }
