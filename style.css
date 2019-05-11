@@ -140,7 +140,8 @@
     position: relative;
     background-size: cover;
     background: #828282;
-    /* height: 550px; */
+    height: 100%;
+    margin: auto;
 }
 
 .subsection-title h3 {
@@ -149,7 +150,7 @@
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
-    font-size: 22px;
+    font-size: 200%;
     /* line-height: 43px; */
     color: #FFFFFF;
 }
@@ -159,14 +160,24 @@
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
-    margin-bottom: 20px;
+    margin-top: 20%;
+    margin-bottom: 20%;
     line-height: 30px;
-    font-size: 12px;
+    /* font-size: 12px; */
+}
+
+#details .contact .subsection .contact-items .desc-text {
+    display: inline;
+    color: white;
 }
 
 #details .contact ul {
     list-style: none;
     padding-left: 0;
+}
+
+#details .contact ul li {
+    margin: 10px;
 }
 
 ​ #details .contact i {
@@ -217,8 +228,10 @@
     text-align: center;
     background-color: rgb(180, 180, 180);
 }
+
 #details .description .desc-section .desc-section-heading:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
     font-size: 13px;
     color: #777;
     float: right;
@@ -226,7 +239,7 @@
     margin-right: 5px;
     margin-top: 2px;
     margin-bottom: 2px;
-  }
+}
 
 #details .description .desc-section .desc-section-heading h4 {
     display: inline;
