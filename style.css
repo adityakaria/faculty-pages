@@ -1,32 +1,34 @@
 /*------------------------------------*\
             Top-bar
 \*------------------------------------*/
+
 #top-bar {
     /* Rectangle */
-
     position: relative;
     /* left: 0%;
     right: 5.88%;
     top: 0%;
     bottom: 0%; */
-
     /* Standard Grey */
     background: #828282;
 }
+
+
 /*------------------------------------*\
             nav-bar
 \*------------------------------------*/
-#nav-bar {
-/* Header Bar */
 
+#nav-bar {
+    /* Header Bar */
     position: relative;
     /* left: 0%;
     right: 6.07%;
     top: 0%;
     bottom: 0%; */
-
     background: #FFFFFF;
 }
+
+
 /*------------------------------------*\
             head-space
 \*------------------------------------*/
@@ -35,7 +37,10 @@
     position: relative;
     /* ntn */
 }
+
+
 /* LOGO SPACE START */
+
 #head-space .logo-space {
     position: relative;
     background-size: cover;
@@ -44,21 +49,27 @@
     right: 0%;
     top: 0%;
     bottom: 35.71%; */
-
     /* Dark Green */
     background: #0F3D3D;
 }
+
 #head-space .logo-space img {
-    margin: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
     float: right;
-    max-width: 200px;
+    max-width: 120px;
+    vertical-align: middle;
 }
 
+
 /* PROFILE IMAGE */
+
 #head-space .profile-img {
     position: relative;
     left: 40px;
-    top: -60%;
+    top: -78%;
     margin-bottom: -30.5%;
     z-index: 99;
 }
@@ -74,101 +85,174 @@
     border: 20px solid #046E6C;
 }
 
+
 /* NAME SPACE START */
+
 #head-space .name-space {
     position: relative;
+    background-size: cover;
     /* text-align: right; */
-    height: 45px;
+    /* height: 45px; */
     /* left: 0%; */
     /* right: 0%; */
     /* top: 46.43%;*/
     /* bottom: 35.71%; */
-
     /* Teal */
     background: #046E6C;
 }
 
-/* YOUR NAME HERE */
-#head-space .name-space h2 {
 
+/* YOUR NAME HERE */
+
+#head-space .name-space h2 {
+    vertical-align: middle;
     /* font-weight: 200; */
     /* color: white; */
-    text-align: right;
-    margin-right: 30%;
-
-    position: relative;
-
+    text-align: center;
+    /* margin-right: 30%; */
+    /* position: relative; */
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
     /* font-size: 48px; */
     /* line-height: 58px; */
     /* text-align: center; */
-
     color: #FFFFFF;
 }
+
+
 /*------------------------------------*\
             Details section
 \*------------------------------------*/
 
+#details {
+    /* height: 500px; */
+    font-family: Lato;
+    margin-top: -8px;
+}
+
+
 /* CONTACT */
+
 #details .contact {
     padding-top: 170px !important;
     padding: 20px;
     position: relative;
     background-size: cover;
     background: #828282;
-    height: 500px;
+    /* height: 550px; */
 }
 
 .subsection-title h3 {
     /* OFFICE | PERSONAL | RESUME */
-
     position: relative;
-
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
-    /* font-size: 36px; */
+    font-size: 22px;
     /* line-height: 43px; */
-
     color: #FFFFFF;
 }
 
-#details .contact .contact-items {
+#details .contact .subsection {
     position: relative;
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
     margin-bottom: 20px;
     line-height: 30px;
+    font-size: 12px;
 }
 
-#details .contact .contact-items ul {
+#details .contact ul {
     list-style: none;
     padding-left: 0;
-}​
-
-#details .contact .contact-items .desc {
-    color: white;
 }
 
-#details .contact .contact-items i {
+​ #details .contact i {
     margin: 3px;
+}
+
+#details .download-resume a {
+    color: white;
 }
 
 
 /* DESCRIPTION */
-#details .description {
 
+#details .description .intro {
+    text-align: center;
 }
-/*------------------------------------*\
-            section
-\*------------------------------------*/
+
+#details .description .intro .position h5 {
+    margin: 10px;
+}
+
+#details .description .intro .department h6 {
+    margin: 10px;
+}
+
+#details .description .intro .joined h6 {
+    margin: 10px;
+    font-size: 75%;
+}
+
+#details .description .intro .objective-statement {
+    margin: 20px auto 20px auto;
+    border: 2px dashed grey;
+    max-width: 60%;
+    box-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#details .description .desc-section {
+    margin: 8% auto;
+    max-width: 80%;
+}
+
+#details .description .desc-section .desc-section-heading {
+    padding: 3px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: rgb(180, 180, 180);
+}
+#details .description .desc-section .desc-section-heading:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+#details .description .desc-section .desc-section-heading h4 {
+    display: inline;
+}
+
+#details .description .desc-section .desc-section-content {
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 95%;
+    vertical-align: middle;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    border-top: 1px solid white;
+}
+
 
 /*------------------------------------*\
             section
 \*------------------------------------*/
+
+
+/*------------------------------------*\
+            section
+\*------------------------------------*/
+
 
 /*------------------------------------*\
             section profile card
@@ -387,15 +471,15 @@
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    border: 5px solid rgba(255,255,255,0.5);
+    border: 5px solid rgba(255, 255, 255, 0.5);
 }
 
 .card.hovercard .info {
     padding: 4px 8px 10px;
 }
 
-.card.hovercard .info .title {
-    margin-bottom: 4px;
+.card.hovercard .inf {
+    margin-bottom: 4;
     font-size: 24px;
     line-height: 1;
     color: #262626;
@@ -415,4 +499,35 @@
     margin-bottom: 17px;
 }
 
-.btn{ border-radius: 50%; width:32px; height:32px; line-height:18px;  }
+.btn {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    line-height: 18px;
+}
+
+
+/* GUTTERS */
+
+.no-gutter {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.no-gutter>[class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+/* PADS */
+
+.row.no-pad {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.row.no-pad>[class*='col-'] {
+    padding-right: 0;
+    padding-left: 0;
+}
